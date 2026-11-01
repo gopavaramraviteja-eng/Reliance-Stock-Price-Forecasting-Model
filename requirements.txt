@@ -1,0 +1,12 @@
+streamlit>=1.33
+pandas>=2.0
+numpy>=1.24
+requests>=2.31
+plotly>=5.20
+statsmodels>=0.14
+scikit-learn>=1.3
+
+# Optional: enables the Prophet model choice in the sidebar. It has heavier
+# native build dependencies (cmdstan) and can be slow/fussy to install on
+# some machines, so it's not required. Uncomment to enable it:
+# prophet>=1.1
